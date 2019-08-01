@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/test_media_player_local_controller_rl"
+        android:padding="5dip"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/test_media_player_local_song_name_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="歌名" />
+
+    </LinearLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/test_media_player_local_controller_rl"
+        android:layout_width="match_parent"
+        android:layout_height="50dip"
+        android:layout_alignParentBottom="true"
+        android:padding="5dip">
+
+        <Button
+            android:id="@+id/test_media_player_local_play_btn"
+            android:layout_width="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_height="wrap_content"
+            android:text="播放"/>
+
+
+
+        <TextView
+            android:id="@+id/test_media_player_local_time_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:text="1:30"/>
+
+        <SeekBar
+            android:id="@+id/test_media_player_local_time_progress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/test_media_player_local_play_btn"
+            android:layout_toLeftOf="@id/test_media_player_local_time_tv"
+            android:layout_centerVertical="true" />
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

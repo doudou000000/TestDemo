@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dip"
+        android:text="Material Design之动画效果"
+        android:gravity="center"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="触摸反馈之Android自带有界Ripple动画"
+                android:background="?android:attr/selectableItemBackground"
+                android:layout_margin="10dip"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="触摸反馈之Android自带越出视图边界的动画"
+                android:background="?android:attr/selectableItemBackgroundBorderless"
+                android:layout_margin="10dip"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="触摸反馈之自定义带有界Ripple动画"
+                android:background="@drawable/custom_ripple_in"
+                android:layout_margin="10dip"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="触摸反馈之越出视图边界的动画"
+                android:background="@drawable/custom_ripple_out"
+                android:layout_margin="10dip"/>
+
+            <View
+                android:id="@+id/custom_animation_circle_view"
+                android:layout_width="80dip"
+                android:layout_height="80dip"
+                android:background="@drawable/custom_circle_shape"
+                android:layout_margin="10dip"
+                android:transitionName="share_element_1"/>
+            <Button
+                android:id="@+id/custom_animation_exit_enter_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="进入动画，退出动画"
+                android:layout_margin="10dip"/>
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:text="开始动画"
+        android:id="@+id/begin_3"
+        />
+    <!--这个View用来做动画的父布局-->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/rootView_3"
+        >
+        <include layout="@layout/activity_custom_transition_a_3"></include>
+    </FrameLayout>
+</LinearLayout>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:padding="5dip"
+    android:layout_height="wrap_content"
+    android:background="#ffffff">
+
+    <ImageView
+        android:id="@+id/test_recycle_view_list_item_iv"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        app:srcCompat="@mipmap/ic_launcher" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignTop="@+id/test_recycle_view_list_item_iv"
+        android:layout_toEndOf="@+id/test_recycle_view_list_item_iv"
+        android:layout_alignBottom="@+id/test_recycle_view_list_item_iv"
+        android:padding="5dip"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/test_recycle_view_list_item_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/test_recycle_view_list_item_time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:text="TextView" />
+    </RelativeLayout>
+</RelativeLayout>

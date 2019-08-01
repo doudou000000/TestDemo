@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="添加下一个fragment"
+        android:onClick="addNextFragment"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="测试Fragment生命周期"
+        android:onClick="testFragmentLife"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <FrameLayout
+            android:id="@+id/fragment_container_list"
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="1"/>
+        <FrameLayout
+            android:id="@+id/fragment_container_content"
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="2"/>
+    </LinearLayout>
+
+
+</LinearLayout>

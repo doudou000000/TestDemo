@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/test_animation_transition_scene_1_rb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:onClick="selectScene"
+            android:text="Scene 1"/>
+        <RadioButton
+            android:id="@+id/test_animation_transition_scene_2_rb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:onClick="selectScene"
+            android:text="Scene 2"/>
+        <RadioButton
+            android:id="@+id/test_animation_transition_scene_3_rb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:onClick="selectScene"
+            android:text="Scene 3"/>
+        <RadioButton
+            android:id="@+id/test_animation_transition_scene_4_rb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:onClick="selectScene"
+            android:text="Scene 4"/>
+
+    </RadioGroup>
+
+    <LinearLayout
+        android:id="@+id/test_animation_transition_scene_root_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <include layout="@layout/activity_test_animation_transition_scene_1"/>
+
+    </LinearLayout>
+
+</LinearLayout>

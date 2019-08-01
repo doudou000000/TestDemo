@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/toast_btn_normal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/toastNormal"
+        android:onClick="sendToast"/>
+
+    <Button
+        android:id="@+id/toast_btn_different_position"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/toastDifferentPosition"
+        android:onClick="sendDifferentPositionToast"/>
+
+    <Button
+        android:id="@+id/toast_btn_custom_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/toastCustomLayout"
+        android:onClick="sendCustomLayoutToast"/>
+</LinearLayout>

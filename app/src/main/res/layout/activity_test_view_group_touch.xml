@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.test.demo.test.apiDemo.viewTouch.TestCustomViewGroup
+        android:id="@+id/test_view_group_touch_view"
+        android:background="@color/colorPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="@color/rgbf4d50e"
+            android:text="123"/>
+
+        <ImageView
+            android:id="@+id/test_view_group_touch_image_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ducky"/>
+
+    </com.test.demo.test.apiDemo.viewTouch.TestCustomViewGroup>
+
+
+
+</LinearLayout>

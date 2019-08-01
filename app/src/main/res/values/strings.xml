@@ -1,0 +1,230 @@
+<resources>
+    <string name="app_name">Test</string>
+    <string name="edit_message">Enter a message</string>
+    <string name="button">Send</string>
+    <string name="shareFile">分享文件给其他appDemo</string>
+    <string name="recordVideo">录制视频</string>
+    <string name="doPhotoPrint">打印图片</string>
+    <string name="loadingLargeBitmap">加载大图</string>
+    <string name="openglDisplay">使用OpenGL显示图形</string>
+    <string name="transitionFramework">使用过度动画</string>
+    <string name="lorem_ipsum">SK大VHKJ吗奥斯卡的工会卡山 \n奥斯卡价格哈空间规划卡号是 刷卡缴费哈数据库 \n看见爱上广发卡说过话发手机客服啊事故发生分别骄傲搜嘎话就\n看作是价格哈设计费哈算法设计规范咖科技按实际开关阀事故发生党纪国法\nSK大VHKJ吗奥斯卡的工会卡山 \n奥斯卡价格哈空间规划卡号是 刷卡缴费哈数据库 \n看见爱上广发卡说过话发手机客服啊事故发生分别骄傲搜嘎话就\n看作是价格哈设计费哈算法设计规范咖科技按实际开关阀事故发生党纪国法\nSK大VHKJ吗奥斯卡的工会卡山 \n奥斯卡价格哈空间规划卡号是 刷卡缴费哈数据库 \n看见爱上广发卡说过话发手机客服啊事故发生分别骄傲搜嘎话就\n看作是价格哈设计费哈算法设计规范咖科技按实际开关阀事故发生党纪国法
+    \nSK大VHKJ吗奥斯卡的工会卡山 \n奥斯卡价格哈空间规划卡号是 刷卡缴费哈数据库 \n看见爱上广发卡说过话发手机客服啊事故发生分别骄傲搜嘎话就\n看作是价格哈设计费哈算法设计规范咖科技按实际开关阀事故发生党纪国法\nSK大VHKJ吗奥斯卡的工会卡山 \n奥斯卡价格哈空间规划卡号是 刷卡缴费哈数据库 \n看见爱上广发卡说过话发手机客服啊事故发生分别骄傲搜嘎话就\n看作是价格哈设计费哈算法设计规范咖科技按实际开关阀事故发生党纪国法\nSK大VHKJ吗奥斯卡的工会卡山 \n奥斯卡价格哈空间规划卡号是 刷卡缴费哈数据库 \n看见爱上广发卡说过话发手机客服啊事故发生分别骄傲搜嘎话就\n看作是价格哈设计费哈算法设计规范咖科技按实际开关阀事故发生党纪国法
+        \nSK大VHKJ吗奥斯卡的工会卡山 \n奥斯卡价格哈空间规划卡号是 刷卡缴费哈数据库 \n看见爱上广发卡说过话发手机客服啊事故发生分别骄傲搜嘎话就\n看作是价格哈设计费哈算法设计规范咖科技按实际开关阀事故发生党纪国法\nSK大VHKJ吗奥斯卡的工会卡山 \n奥斯卡价格哈空间规划卡号是 刷卡缴费哈数据库 \n看见爱上广发卡说过话发手机客服啊事故发生分别骄傲搜嘎话就\n看作是价格哈设计费哈算法设计规范咖科技按实际开关阀事故发生党纪国法\nSK大VHKJ吗奥斯卡的工会卡山 \n奥斯卡价格哈空间规划卡号是 刷卡缴费哈数据库 \n看见爱上广发卡说过话发手机客服啊事故发生分别骄傲搜嘎话就\n看作是价格哈设计费哈算法设计规范咖科技按实际开关阀事故发生党纪国法
+    </string>
+    <string name="crossfade">view的淡入淡出</string>
+    <string name="screenSlidePager">viewpager滑动</string>
+    <string name="custom_transition_tv">那天妈不在家，家里只有我和弟弟还有妹妹，哦!还有我的旺仔(我的狗狗)。\n早晨买了二十个包子竟然让那两个货当零食干完了。\n“咋办呀，中午吃啥呀?”妹妹坐在沙发上傻笑，哼，不怀好意的笑。\n“哼，你笑啥呢?”\n“姐，你会做饭不?要不咱们出去吃吧!”\n我点点头:“当然会啦!不就做个饭嘛!小case啦!”\n弟弟盯着手机也不看我一眼:“拉倒吧!上次你炒鸡蛋没放油，用菜刀刷锅，结果把锅弄漏了。有蒸米饭把电饭煲弄坏了，还有在微波炉里热馒头，微波炉差点着了吧!还有前几天......”\n没错，那些蠢事儿都是我干的。没做饭之前我以为我是大厨，做完饭之后才发现我原来是个料理师——黑暗料理。\n看着爸妈做饭挺简单的啊!一下能做出好几道菜呢。他们做饭的时候我经常在厨房转悠，后来才发现也没学啥“手艺”嘛!在厨房就会不停的说话，我完全就是个活体收音机啊!她们回答我我会继续说，他们不回答我我会不停说，可能爸妈习惯了吧，我说什么他们都“嗯，啊”。哼，绝对是敷衍!我可是出了名的“老小孩儿”，从小在老人堆里长大，有时候你会觉得从我嘴里说出的话很别扭，大概是和年龄不符吧!总之，就是很能说啦!\n不管怎样今天我要做饭，反正妈也不在家，那两个兔崽子爱吃不吃呢!“我要做饭了啊!”\n“你做吧，我不吃!”弟弟，一口否决。\n妹妹看看我看看弟弟:“我也不吃!”\n“你俩把包子全吃了，喂狗了没?”我一边从冰箱里拿菜拿肉:“爱吃不吃，不吃饿着!反正我是做了，待会儿可别说太好吃啊!”\n“姐，包子是肉馅儿的，旺仔特别爱吃!”\n“啊?都给狗了?我就吃了一个啊!”\n他俩偷偷的笑着，其实我知道狗狗也没吃多少。</string>
+    <string name="customTransition">自定义过渡动画</string>
+    <string name="card_back_title">这是一张图片</string>
+    <string name="card_back_description">点击\"这是一张图片\"就可以看到</string>
+    <string name="description_image_1">两只拉布拉多犬,一只是黑的，一只是白色的</string>
+
+    <string name="cardFlip">卡片翻转效果</string>
+    <string name="zoomView">view缩放效果</string>
+    <string name="discoverServices">搜索nsd服务</string>
+    <string name="registerNsdService">注册nsd服务</string>
+
+    <string name="creatingWifiP2PConnection">创建WiFiP2P连接</string>
+    <string name="volley">volley请求</string>
+    <string name="contacts">获取联系人列表</string>
+
+    <string name="notification">通知测试</string>
+    <string name="dimStatusBar">淡化状态栏</string>
+    <string name="customAnimation">Material Design动画效果</string>
+    <string name="commonIntent">常见的隐式意图</string>
+    <string name="myFragment">测试Fragment</string>
+    <string name="cursorLoader">Loader测试</string>
+    <string name="taskModel">启动模式</string>
+    <string name="bindService">Service之Bind Service</string>
+    <string name="testAIDL">Service之跨进程通信AIDL</string>
+    <string name="testBook">Service之跨进程通信AIDL（传递类）</string>
+    <string name="handlerService">Service之IntentService</string>
+    <string name="foregroundService">Service之启动前台服务</string>
+    <string name="appwidget_text">应用小部件</string>
+    <string name="testThread">线程间的通信</string>
+    <string name="testNotification">测试通知</string>
+    <string name="testNotification2">测试可点击通知</string>
+
+
+    <string name="sendNotification">发送一个通知</string>
+    <string name="removeNotification">移除一个通知</string>
+    <string name="sendNotificationTag">发送一个带Tag通知</string>
+    <string name="removeNotificationTag">移除一个带Tag通知</string>
+    <string name="sendTenNotification">连续发送十条通知</string>
+    <string name="sendNotificationFlagNoClear">发送一个Flag为FLAG_NO_CLEAR 通知</string>
+    <string name="sendNotificationFlagOngoingEvent">发送一个Flag为FlagOngoingEvent的通知</string>
+    <string name="sendNotificationFlagAutoCancecl">发送一个Flag为FLAG_AUTO_CANCEL 通知</string>
+    <string name="removeAllNotification">移除所有的通知</string>
+    <string name="showNotifyWithRing">显示一个带铃声的通知</string>
+    <string name="showNotifyWithVibrate">展示有震动效果的通知</string>
+    <string name="showNotifyWithLights">显示带有呼吸灯效果的通知</string>
+    <string name="showNotifyWithMixed">显示带有默认铃声、震动、呼吸灯效果的通知</string>
+    <string name="showInsistentNotify">通知无限循环</string>
+    <string name="showAlertOnceNotify">通知只执行一次</string>
+
+
+    <string name="toastNormal">发送一个普通的Toast</string>
+    <string name="toastDifferentPosition">定义一个不同位置的Toast</string>
+    <string name="toastCustomLayout">定义一个自定义布局的Toast</string>
+    <string name="testToast">测试Toast</string>
+
+    <string name="testSearchable">测试SearchDialog</string>
+    <string name="testSearchView">测试SearchView</string>
+    <string name="testSearchViewMenu">测试菜单SearchView</string>
+    <string name="testDrag">测试拖放框架</string>
+    <string name="testRetrofit">测试retrofit框架</string>
+
+    <string name="drawTextOnPath">测试drawTextOnPath</string>
+    <string name="customImageView">测试customImageView</string>
+
+    <string name="customCompoundControls">自定义组合控件</string>
+
+    <string name="testTextView">动态设置textView的高度</string>
+
+    <string name="testDesignPattern">设计模式</string>
+    <string name="testObserver">设计模式之观察者模式</string>
+    <string name="testFactory">设计模式之工厂模式</string>
+
+    <string name="testAnimation">动画实例</string>
+    <string name="testPaWuXian">动画实例之抛物线</string>
+    <string name="testDemo1">动画实例之APIDemo实例1</string>
+    <string name="testDemo2">动画实例之APIDemo实例2</string>
+    <string name="testDemo3">动画实例之APIDemo实例3</string>
+    <string name="testDemo4">动画实例之APIDemo实例4</string>
+    <string name="testDemo5">动画实例之APIDemo实例5</string>
+    <string name="testDemo6">动画实例之APIDemo实例6</string>
+    <string name="testShapeDrawable">动画实例之ShapeDrawable</string>
+    <string name="testObjectAnimator">动画实例之ObjectAnimator</string>
+    <string name="testAnimatorSet">动画实例之AnimatorSet</string>
+    <string name="testAnimatorSet2">动画实例之AnimatorSet2</string>
+
+    <string name="animationLoading">动画实例之布局中加载Animator</string>
+    <string name="testAnimatorTranslationShareElement">动画实例之APIDemos中共享元素</string>
+    <string name="testAnimationSeeking">动画实例之APIDemos中改变球运动的时间</string>
+    <string name="testAnimatorEvents">动画实例之APIDemos中AnimatorEvents</string>
+    <string name="testAnimatorCustomEvaluator">动画实例之APIDemos中自定义估值器</string>
+    <string name="testLayoutAnimations">动画实例之APIDemos中LayoutAnimation</string>
+    <string name="testLayoutAnimations1">动画实例之APIDemos中LayoutAnimationDemo1</string>
+    <string name="testLayoutAnimations2">动画实例之APIDemos中LayoutAnimationDemo2</string>
+    <string name="testLayoutAnimations3">动画实例之APIDemos中LayoutAnimationDemo3</string>
+    <string name="testLayoutAnimationsFlipper">动画实例之APIDemos中ListFlipper</string>
+    <string name="testLayoutAnimationsMultiProperty">动画实例之APIDemos中MultiProperty</string>
+    <string name="testTransition">动画实例之APIDemos中Transition</string>
+    <string name="testTransition3d">动画实例之APIDemos中Transition3d</string>
+    <string name="testAnimatorReverse">动画实例之APIDemos中反向动画效果</string>
+
+
+    <!--canvas-->
+
+    <string name="testCanvas">测试canvas</string>
+    <string name="testCanvasTranslate">测试canvas之translate</string>
+    <string name="testCanvasScale">测试canvas之scale</string>
+    <string name="testCanvasRotate">测试canvas之rotate</string>
+    <string name="testCanvasSkew">测试canvas之skew(错切)</string>
+
+
+    <!--path-->
+    <string name="testPath">测试Path</string>
+    <string name="testPathBasic">测试path之基础方法</string>
+    <string name="testPathLine">测试Path之line</string>
+
+
+    <string name="testComment">组件测试</string>
+    <string name="testRecycleView">组件测试之RecycleView</string>
+
+
+
+    <!--mediaPlayer-->
+    <string name="testMediaPlayer">测试mediaPlayer</string>
+    <string name="testMediaPlayerLocal">测试mediaPlayer基础</string>
+    <string name="testMediaPlayerDemo">测试mediaPlayerService</string>
+
+
+    <!--viewpager-->
+    <string name="testViewPager">测试ViewPager</string>
+    <string name="testPageAdapterViewPager">测试ViewPager之pagerAdapter</string>
+    <string name="testPageTransformViewPager">测试ViewPager之pagerTransform</string>
+    <string name="testFragmentPageAdapterViewPager">测试ViewPager之FragmentPageAdapter</string>
+    <string name="testFragmentStatePageAdapterViewPager">测试ViewPager之FragmentStatePageAdapter</string>
+
+    <!--HandleThread-->
+    <string name="testHandleThread">测试HandleThread</string>
+    <string name="testCustomHandleThread">测试自实现HandleThread</string>
+    <string name="testAndroidHandleThread">测试HandleThread</string>
+
+    <!--Handle-->
+    <string name="testHandlerPost">测试Handler的post方法</string>
+    <string name="testHandlerSend">测试自实现Handle的sendMessage方法</string>
+    <string name="testHandler">测试Handle</string>
+
+    <!--BroadcastReceiver-->
+    <string name="testBroadcastReceiver">测试BroadcastReceiver</string>
+    <string name="testBroadcastReceiverNorm">测试普通广播</string>
+    <string name="testBroadcastReceiverOrder">测试有序广播</string>
+    <string name="testBroadcastReceiverLocal">测试本地广播</string>
+
+    <!--AsyncTask-->
+    <string name="testAsyncTask">测试AsyncTask</string>
+    <string name="testAsyncTaskExecute">测试AsyncTask之Execute</string>
+    <string name="testAsyncTaskExecuteOnExecutor">测试tAsyncTask之ExecuteOnExecutor</string>
+    <string name="testAsyncTaskLoader">测试AsyncTask之Loader</string>
+
+    <!--testViewGroupTouch-->
+    <string name="testViewGroupTouch">测试ViewGroup滑动</string>
+
+    <!--matrix-->
+    <string name="testMatrix">测试matrix矩阵</string>
+    <string name="testMatrixDemo1">测试matrix矩阵之基本方法</string>
+    <string name="testMatrixDemo2">测试matrix矩阵之组合</string>
+    <string name="testMatrixDemo3">测试matrix矩阵之特殊方法</string>
+
+
+    <!--ListView-->
+    <string name="testListView">测试ListView</string>
+
+
+    <!--Architecture-->
+    <string name="testArchitecture">测试架构</string>
+    <string name="testMVCArchitecture">测试MVC架构</string>
+    <string name="testMVPArchitecture">测试MVP架构</string>
+    <string name="testMVVMArchitecture">测试MVVM架构</string>
+
+    <!--frame-->
+    <string name="testFrame">测试开源框架</string>
+    <string name="testARouter">测试页面路由ARouter</string>
+    <string name="testARouterNormal">测试页面路由ARouter之普通跳转</string>
+    <string name="testARouterWithData">测试页面路由ARouter之传递数据</string>
+    <string name="testARouterResult">测试页面路由ARouter之startActivityForResult</string>
+    <string name="testARouterUri">测试页面路由ARouter之使用Uri跳转</string>
+    <string name="testARouterAnimation">测试页面路由ARouter之动画效果</string>
+    <string name="testARouterWebView">测试页面路由ARouter之从URL跳转到指定页面</string>
+    <string name="testARouterInterceptor">测试页面路由ARouter之拦截器</string>
+    <string name="testARouterLost">测试页面路由ARouter之降级</string>
+    <string name="testARouterService">测试页面路由ARouter之服务</string>
+    <string name="testARouterFragment">测试页面路由ARouter之Fragment</string>
+
+    <string name="testOKHttp3">测试OKHttp3</string>
+    <string name="testOKHttp3_get">测试OKHttp3之get请求</string>
+    <string name="testOKHttp3_post">测试OKHttp3之post请求</string>
+
+    <!--RemoteViews-->
+    <string name="testRemoteViews">测试RemoteViews</string>
+    <string name="testNotificationRemoteViews">测试RemoteViews之Notification</string>
+    <string name="testAppWidgetRemoteViews">测试RemoteViews之AppWidget</string>
+
+
+
+    <string name="testKotlinCustomViews">测试kotlin之自定义View</string>
+
+    <string name="testPluginViews">测试动态加载APK</string>
+
+    <string name="testEventBus">测试EventBus</string>
+    <string name="testThreadLocal">测试ThreadLocal</string>
+    <string name="testCustomGlide">测试自己实现Glide图片加载框架</string>
+    <string name="testGlide">测试Glide图片加载框架</string>
+    <string name="testUpdate">测试增量更新</string>
+
+    <string name="testScrollerConflict">测试滑动冲突</string>
+
+</resources>

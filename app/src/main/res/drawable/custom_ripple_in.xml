@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple xmlns:android="http://schemas.android.com/apk/res/android"
+    android:color="?android:colorPrimaryDark">
+    <!--通用-->
+    <!--<item android:drawable="@color/colorAccent">-->
+    <!--</item>-->
+    <!--圆形-->
+    <item>
+        <shape android:shape="oval">
+            <solid android:color="@color/colorAccent"/>
+        </shape>
+    </item>
+    <!--图片-->
+    <!--<item android:drawable="@mipmap/ic_launcher">-->
+    <!--</item>-->
+
+</ripple>

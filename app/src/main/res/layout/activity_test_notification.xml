@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <Button
+                android:id="@+id/btn_send_notification"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sendNotification" />
+
+            <Button
+                android:id="@+id/btn_remove_notification"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/removeNotification" />
+
+            <Button
+                android:id="@+id/btn_send_notification_with_tag"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sendNotificationTag" />
+
+            <Button
+                android:id="@+id/btn_remove_notification_with_tag"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/removeNotificationTag" />
+
+            <Button
+                android:id="@+id/btn_send_ten_notification"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sendTenNotification" />
+
+            <Button
+                android:id="@+id/btn_send_flag_no_clear_notification"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sendNotificationFlagNoClear" />
+
+            <Button
+                android:id="@+id/btn_send_flag_ongoing_event_notification"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sendNotificationFlagOngoingEvent" />
+
+            <Button
+                android:id="@+id/btn_send_flag_auto_cancecl_notification"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sendNotificationFlagAutoCancecl" />
+
+            <Button
+                android:id="@+id/btn_remove_all_notification"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/removeAllNotification" />
+
+            <Button
+                android:id="@+id/btn_show_notify_with_ring"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/showNotifyWithRing" />
+
+            <Button
+                android:id="@+id/btn_show_notify_with_vibrate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/showNotifyWithVibrate" />
+
+            <Button
+                android:id="@+id/btn_show_notify_with_lights"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/showNotifyWithLights" />
+
+            <Button
+                android:id="@+id/btn_show_notify_with_mixed"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/showNotifyWithMixed" />
+            <Button
+                android:id="@+id/btn_show_insistent_notify"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/showInsistentNotify" />
+
+            <Button
+                android:id="@+id/btn_show_alert_once_notify"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/showAlertOnceNotify" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

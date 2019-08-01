@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Test.iml" filepath="$PROJECT_DIR$/Test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/glideLib/glideLib.iml" filepath="$PROJECT_DIR$/glideLib/glideLib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java_test/java_test.iml" filepath="$PROJECT_DIR$/java_test/java_test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pluginlibrary/pluginlibrary.iml" filepath="$PROJECT_DIR$/pluginlibrary/pluginlibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/retrofitlib/retrofitlib.iml" filepath="$PROJECT_DIR$/retrofitlib/retrofitlib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/testdex/testdex.iml" filepath="$PROJECT_DIR$/testdex/testdex.iml" />
+      <module fileurl="file://$PROJECT_DIR$/testffmpeg/testffmpeg.iml" filepath="$PROJECT_DIR$/testffmpeg/testffmpeg.iml" />
+      <module fileurl="file://$PROJECT_DIR$/updatelibrary/updatelibrary.iml" filepath="$PROJECT_DIR$/updatelibrary/updatelibrary.iml" />
+    </modules>
+  </component>
+</project>

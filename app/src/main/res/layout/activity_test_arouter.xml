@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/testARouterNormal"
+        android:textAllCaps="false"
+        android:onClick="testARouterNormal"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/testARouterWithData"
+        android:textAllCaps="false"
+        android:onClick="testARouterWithData"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/testARouterResult"
+        android:textAllCaps="false"
+        android:onClick="testARouterResult"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/testARouterUri"
+        android:textAllCaps="false"
+        android:onClick="testARouterUri"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/testARouterAnimation"
+        android:onClick="testARouterAnimation"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/testARouterWebView"
+        android:onClick="testARouterWebView"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/testARouterInterceptor"
+        android:textAllCaps="false"
+        android:onClick="testARouterInterceptor"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/testARouterLost"
+        android:textAllCaps="false"
+        android:onClick="testARouterLost"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/testARouterService"
+        android:textAllCaps="false"
+        android:onClick="testARouterService"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/testARouterFragment"
+        android:textAllCaps="false"
+        android:onClick="testARouterFragment"/>
+
+
+
+    <TextView
+        android:id="@+id/test"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:transitionName="testTv"
+        android:text="TextView" />
+
+</LinearLayout>

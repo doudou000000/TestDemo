@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="MyCircleView">
+        <attr name="radius" format="dimension" />
+        <attr name="color" format="color" />
+        <attr name="x" format="dimension" />
+        <attr name="y" format="dimension" />
+    </declare-styleable>
+    <declare-styleable name="LabelView">
+        <attr name="text" format="string" />
+        <attr name="textColor" format="color" />
+        <attr name="textSize" format="dimension" />
+    </declare-styleable>
+
+</resources>

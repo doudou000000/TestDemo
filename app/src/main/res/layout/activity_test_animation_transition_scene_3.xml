@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <View
+        android:layout_width="100dip"
+        android:layout_height="50dip"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:background="#f00"
+        android:id="@+id/test_animation_transition_scene_1_view1"/>
+
+    <View
+        android:layout_width="100dip"
+        android:layout_height="50dip"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:background="#0f0"
+        android:id="@+id/test_animation_transition_scene_1_view2"/>
+
+    <View
+        android:layout_width="100dip"
+        android:layout_height="50dip"
+        android:background="#00f"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:id="@+id/test_animation_transition_scene_1_view3"/>
+
+    <View
+        android:layout_width="100dip"
+        android:layout_height="50dip"
+        android:background="#0ff"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:id="@+id/test_animation_transition_scene_1_view4"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:orientation="vertical"
+        android:id="@+id/test_animation_transition_scene_3_grayscaleContainer">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="10dip"
+            android:background="#000"
+            android:id="@+id/gray1"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="10dip"
+            android:background="#222"
+            android:id="@+id/gray2"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="10dip"
+            android:background="#444"
+            android:id="@+id/gray3"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="10dip"
+            android:background="#666"
+            android:id="@+id/gray4"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="10dip"
+            android:background="#888"
+            android:id="@+id/gray5"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="10dip"
+            android:background="#aaa"
+            android:id="@+id/gray6"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="10dip"
+            android:background="#ccc"
+            android:id="@+id/gray7"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="10dip"
+            android:background="#fff"
+            android:id="@+id/gray8"/>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

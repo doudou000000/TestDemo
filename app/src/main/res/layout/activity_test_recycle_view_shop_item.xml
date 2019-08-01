@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dip">
+
+        <TextView
+            android:id="@+id/test_recycle_view_shop_item_name_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="商品名称"
+            android:textSize="20dip"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dip">
+
+            <TextView
+                android:id="@+id/test_recycle_view_shop_item_use_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="无门槛"
+                android:textColor="@android:color/black"/>
+
+            <TextView
+                android:id="@+id/test_recycle_view_shop_item_use_tip_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="自费"
+                android:layout_alignParentRight="true"
+                android:textColor="@android:color/black"/>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dip">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dip"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/test_recycle_view_shop_item_use_data_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2018.08-2018.09"/>
+
+
+            <ImageView
+                android:id="@+id/test_recycle_view_shop_item_down_iv"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/down"
+                android:layout_alignParentRight="true"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="详细信息"
+                android:layout_toLeftOf="@id/test_recycle_view_shop_item_down_iv"
+                android:layout_marginRight="10dip"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/test_recycle_view_shop_item_detail_info_rl"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dip"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:id="@+id/test_recycle_view_shop_item_detail_info_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="限App使用"/>
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+</LinearLayout>

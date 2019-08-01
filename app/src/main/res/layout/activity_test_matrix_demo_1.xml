@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="平移"
+        android:onClick="testMatrixDemo1Trans"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="旋转"
+        android:onClick="testMatrixDemo1Rotate"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="缩放"
+        android:onClick="testMatrixDemo1Scale"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="错切"
+        android:onClick="testMatrixDemo1Skew"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="矩阵值"
+        android:onClick="testMatrixDemo1Value"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="还原"
+        android:onClick="testMatrixDemo1Reset"/>
+
+
+    <ImageView
+        android:id="@+id/test_matrix_demo_1_iv_orig"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="matrix"
+        android:src="@drawable/matrix"/>
+</LinearLayout>

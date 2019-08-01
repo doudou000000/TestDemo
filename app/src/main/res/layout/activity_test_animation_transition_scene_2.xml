@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <View
+        android:layout_width="100dip"
+        android:layout_height="100dip"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:background="#f00"
+        android:id="@+id/test_animation_transition_scene_1_view1"/>
+
+    <View
+        android:layout_width="100dip"
+        android:layout_height="100dip"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:background="#0f0"
+        android:id="@+id/test_animation_transition_scene_1_view2"/>
+
+    <View
+        android:layout_width="100dip"
+        android:layout_height="100dip"
+        android:background="#00f"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:id="@+id/test_animation_transition_scene_1_view3"/>
+
+    <View
+        android:layout_width="100dip"
+        android:layout_height="100dip"
+        android:background="#0ff"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:id="@+id/test_animation_transition_scene_1_view4"/>
+
+</RelativeLayout>

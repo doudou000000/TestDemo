@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/test_shape_drawable_ducky"
+                android:layout_width="100dip"
+                android:layout_height="100dp"
+                android:gravity="center"
+                android:layout_margin="5dip"
+                android:text="我是一个圆"/>
+            <TextView
+                android:id="@+id/test_shape_drawable_block"
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:gravity="center"
+                android:layout_margin="5dip"
+                android:text="我是一个矩形"/>
+
+            <TextView
+                android:id="@+id/test_shape_drawable_frantic"
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:layout_margin="5dip"
+                android:gravity="center"
+                android:text="我是一个圆角矩形"/>
+            <TextView
+                android:id="@+id/test_shape_drawable_pencil"
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:gravity="center"
+                android:layout_margin="5dip"
+                android:text="我是一个圆弧"/>
+
+            <TextView
+                android:id="@+id/test_shape_drawable_woot"
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:gravity="center"
+                android:layout_margin="5dip"
+                android:text="我是一个path 图形"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</LinearLayout>

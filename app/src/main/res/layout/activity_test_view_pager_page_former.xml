@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/test_view_page_page_former_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clipChildren="false">
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/test_view_page_page_former_view"
+        android:layout_width="280dip"
+        android:layout_height="200dp"
+        android:layout_centerInParent="true"
+        android:clipChildren="false">
+
+    </android.support.v4.view.ViewPager>
+
+</RelativeLayout>

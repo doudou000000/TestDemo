@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<transitionManager xmlns:android="http://schemas.android.com/apk/res/android"
+    android:transitionOrdering="sequential">
+    <transition
+        android:fromScene="@layout/activity_test_animation_transition_scene_1"
+        android:toScene="@layout/activity_test_animation_transition_scene_2"
+        android:transition="@transition/changebounds"/>
+    <transition
+        android:fromScene="@layout/activity_test_animation_transition_scene_2"
+        android:toScene="@layout/activity_test_animation_transition_scene_1"
+        android:transition="@transition/changebounds"/>
+    <transition android:toScene="@layout/activity_test_animation_transition_scene_3"
+        android:transition="@transition/changebounds_fadein_together"/>
+    <transition android:fromScene="@layout/activity_test_animation_transition_scene_3"
+        android:toScene="@layout/activity_test_animation_transition_scene_1"
+        android:transition="@transition/changebounds_fadeout_sequential"/>
+    <transition android:fromScene="@layout/activity_test_animation_transition_scene_3"
+        android:toScene="@layout/activity_test_animation_transition_scene_2"
+        android:transition="@transition/changebounds_fadeout_sequential"/>
+</transitionManager>

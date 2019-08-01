@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.test.demo.test">
+    <uses-feature android:name="android.hardware.camera"
+        android:required="true" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:required="true" android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:required="true" android:name="android.permission.CHANGE_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS"/>
+    <uses-permission android:name="com.android.alarm.permission.SET_ALARM"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <!--位未知来源权限,适配8.0-->
+    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES"/>
+
+    <application
+        android:name=".app.MyApp"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="MyApp"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".DisplayMessageActivity" />
+        <activity android:name=".ShareFileActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.PICK" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.OPENABLE" />
+                <data android:mimeType="text/plain"/>
+                <data android:mimeType="image/*"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".RecordVideoActivity" />
+        <activity android:name=".LoadLargeBitmapActivity" />
+        <activity android:name=".OpenGLActivity" />
+        <activity android:name=".TransitionFrameworkActivity" />
+        <activity android:name=".CrossfadeActivity" />
+        <activity android:name=".ScreenSlidePagerActivity" />
+        <activity android:name=".CustomTransitionActivity" />
+        <activity android:name=".CardFlipActivity" />
+        <activity android:name=".ZoomViewActivity" />
+        <activity android:name=".DiscoverServicesActivity" />
+        <activity android:name=".RegisterNsdServiceActivity" />
+        <activity android:name=".CreatingWifiP2PConnectionActivity" />
+        <activity android:name=".volley.VolleyActivity" />
+        <activity android:name=".ContactsActivity" />
+        <activity android:name=".NotificationActivity" />
+        <activity android:name=".NotificationResultActivity" />
+        <activity android:name=".DimStatusBarActivity" />
+        <activity android:name=".CustomAnimationActivity" />
+        <activity android:name=".CustomAnimationShareElementActivity" />
+        <activity android:name=".apiDemo.commonIntents.CommonIntentActivity" >
+
+            <!--<intent-filter>-->
+
+                <!--<action android:name="android.intent.action.SET_ALARM"/>-->
+                <!--<category android:name="android.intent.category.DEFAULT"/>-->
+
+            <!--</intent-filter>-->
+
+        </activity>
+        <activity android:name=".apiDemo.fragments.MyFragmentActivity" />
+        <activity android:name=".apiDemo.Loader.CursorLoaderActivity" />
+
+        <activity android:name=".apiDemo.backStack.TaskActivityD" />
+        <activity android:name=".apiDemo.backStack.TaskActivityC" android:launchMode="singleTask">
+        </activity>
+        <activity android:name=".apiDemo.backStack.TaskActivityB"/>
+        <activity android:name=".apiDemo.backStack.TaskActivityA"/>
+
+
+        <activity android:name=".apiDemo.service.createBind.BindServiceActivity" />
+        <activity android:name=".apiDemo.service.messager.BindServiceMessageActivity" />
+        <activity android:name=".apiDemo.service.aidl.demo_1.TestAIDLActivity" />
+        <activity android:name=".apiDemo.service.aidl.demo_2.TestBookActivity" />
+        <activity android:name=".apiDemo.service.handlerService.IntentServiceActivity" />
+        <activity android:name=".apiDemo.service.foregroundService.ForegroundServiceActivity" />
+        <activity android:name=".apiDemo.thread.TestThreadActivity" />
+        <activity android:name=".apiDemo.notification.TestNotificationActivity" />
+        <activity android:name=".apiDemo.notification.regularActivity.TestNotification2Activity" />
+        <activity android:name=".apiDemo.notification.regularActivity.RegularActivity"
+
+            android:parentActivityName=".MainActivity"><!--4.1之后使用parentActivityName-->
+
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity"/><!--4.0之前使用meta-data-->
+
+        </activity>
+        <activity android:name=".apiDemo.notification.specialActivity.SpecialActivity"
+            android:launchMode="singleTask"
+            android:taskAffinity=""
+            android:excludeFromRecents="true">
+        </activity>
+        <activity android:name=".apiDemo.toast.ToastActivity" />
+
+        <!--searchDialog启动与处理在一个activity中-->
+        <activity android:name=".apiDemo.search.searchDialog.SearchableActivity"
+            android:launchMode="singleTop">
+
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH"/>
+            </intent-filter>
+            <meta-data
+                android:name="android.app.searchable"
+                android:resource="@xml/searchable"/>
+        </activity>
+
+        <!--searchDialog启动与处理在两个activity中-->
+        <!--<activity android:name=".apiDemo.search.searchDialog.SearchableActivity"-->
+            <!--android:launchMode="singleTop">-->
+
+            <!--<meta-data-->
+                <!--android:name="android.app.default_searchable"-->
+                <!--android:value="com.test.demo.test.apiDemo.search.searchDialog.SearchableResultActivity" />-->
+
+
+        <!--</activity>-->
+
+        <!--<activity android:name=".apiDemo.search.searchDialog.SearchableResultActivity"-->
+            <!--android:launchMode="singleTop">-->
+
+            <!--<intent-filter>-->
+                <!--<action android:name="android.intent.action.SEARCH"/>-->
+            <!--</intent-filter>-->
+            <!--<meta-data-->
+                <!--android:name="android.app.searchable"-->
+                <!--android:resource="@xml/searchable"/>-->
+        <!--</activity>-->
+        <activity android:name="com.test.demo.test.apiDemo.search.searchWidget.SearchViewMenuActivity"
+            android:launchMode="singleTop">
+
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH"/>
+            </intent-filter>
+            <meta-data
+                android:name="android.app.searchable"
+                android:resource="@xml/searchable"/>
+
+        </activity>
+        <activity android:name=".apiDemo.search.searchWidget.SearchViewActivity" />
+        <activity android:name=".apiDemo.dragAndDrop.TestDragActivity" />
+        <activity android:name=".retrofit.TestRetrofitActivity" />
+        <activity android:name=".design_pattern.observer_pattern.TestWeatherObserverActivity" />
+        <activity android:name=".apiDemo.customComponent.demo.CustomLabelViewActivity" />
+        <activity android:name=".apiDemo.customComponent.drawTextOnPath.DrawTextOnPathActivity" />
+        <activity android:name=".apiDemo.customComponent.demo.CustomImageViewActivity" />
+        <activity android:name=".apiDemo.customComponent.demo.CustomCompoundControls" />
+        <activity android:name=".design_pattern.factory_pattern.TestCarFactoryActivity" />
+        <activity android:name=".design_pattern.TestDesignPatternActivity" />
+        <activity android:name=".apiDemo.animation.TestAnimationActivity" />
+        <activity android:name=".apiDemo.animation.property.demo.PaowuxianActivity" />
+        <activity android:name=".apiDemo.animation.property.demo1.TestAnimationDemo1Activity" />
+        <activity android:name=".apiDemo.animation.property.demo1.TestTransitionAnimationActivity" />
+        <activity android:name=".apiDemo.animation.property.demo2.TestAnimationCloningActivity" />
+        <activity android:name=".apiDemo.animation.property.demo2.TestShapeDrawableActivity" />
+        <activity android:name=".apiDemo.animation.property.demo3.TestObjectAnimatorActivity" />
+        <activity android:name=".apiDemo.animation.property.demo4.TestAnimatorSetActivity" />
+        <activity android:name=".apiDemo.animation.property.demo5.TestAnimatorSet2Activity" />
+        <activity android:name=".apiDemo.animation.property.demo6.AnimationLoadingActivity" />
+        <activity android:name=".apiDemo.animation.property.demo7.TestTransitionShareElementDetailActivity" />
+        <activity android:name=".apiDemo.animation.property.demo7.TestAnimationSeekingActivity" />
+        <activity android:name=".apiDemo.animation.property.demo7.TestAnimatorEventsActivity" />
+        <activity android:name=".apiDemo.animation.property.demo7.TestAnimatorCustomEvaluatorActivity" />
+        <activity android:name=".comment.recycleview.TestRecycleViewActivity" />
+        <activity android:name=".comment.TestCommentActivity" />
+        <activity android:name=".apiDemo.animation.property.demo7.TestLayoutAnimationsActivity" />
+        <activity android:name=".apiDemo.animation.property.demo7.TestLayoutAnimations1Activity" />
+        <activity android:name=".apiDemo.animation.property.demo7.TestLayoutAnimations2Activity" />
+        <activity android:name=".apiDemo.animation.property.demo7.TestLayoutAnimations3Activity" />
+        <activity android:name=".apiDemo.animation.property.demo7.TestLayoutAnimationsFlipperActivity" />
+        <activity android:name=".apiDemo.animation.property.demo7.TestLayoutAnimationsMultiPropertyActivity" />
+        <activity android:name=".apiDemo.animation.property.demo7.TestTransitionShareElementActivity" />
+        <activity android:name=".apiDemo.animation.property.demo7.TestTransitionActivity" />
+        <activity android:name=".apiDemo.animation.property.demo7.TestTransition3dActivity" />
+        <activity android:name=".apiDemo.animation.property.demo7.TestAnimatorReverseActivity" />
+        <activity android:name=".apiDemo.canvas.translate.TestCanvasTranslateActivity" />
+        <activity android:name=".apiDemo.canvas.TestCanvasActivity" />
+        <activity android:name=".apiDemo.canvas.scale.TestCanvasScaleActivity" />
+        <activity android:name=".apiDemo.canvas.rotate.TestCanvasRotateActivity" />
+        <activity android:name=".apiDemo.canvas.skew.TestCanvasSkewActivity" />
+        <activity android:name=".apiDemo.path.TestPathActivity" />
+        <activity android:name=".apiDemo.path.basic.TestPathBasicActivity" />
+        <activity android:name=".apiDemo.path.line.TestPathLineActivity" />
+        <activity android:name=".apiDemo.media.TestMediaPlayerLocalActivity" />
+        <activity android:name=".apiDemo.media.TestMediaPlayerActivity" />
+        <activity android:name=".apiDemo.media.TestMediaPlayerServiceActivity" />
+        <activity android:name=".apiDemo.activity.TestLifeActivityA" />
+        <activity android:name=".apiDemo.activity.TestLifeActivityB" android:theme="@style/MyTransparent"/>
+        <activity android:name=".apiDemo.viewpager.pageAdapter.TestPageAdapterActivity" />
+        <activity android:name=".apiDemo.viewpager.TestViewPagerActivity" />
+        <activity android:name=".apiDemo.viewpager.pageTransformer.TestPageTransformerActivity" />
+        <activity android:name=".apiDemo.viewpager.fragmentPagerAdapter.TestFragmentPageAdapterActivity" />
+        <activity android:name=".apiDemo.viewpager.fragmentSatePagerAdapter.TestFragmentStatePageAdapterActivity" />
+        <activity android:name=".apiDemo.fragments.MyFragmentLifeActivity" />
+        <activity android:name=".apiDemo.handlerThread.TestHandleThreadActivity" />
+        <activity android:name=".apiDemo.handlerThread.TestCustomHandleThreadActivity" />
+        <activity android:name=".apiDemo.broadcast.TestBroadcastReceiverLocalActivity" />
+        <activity android:name=".apiDemo.broadcast.TestBroadcastReceiverNormActivity" />
+        <activity android:name=".apiDemo.broadcast.TestBroadcastReceiverOrderActivity" />
+        <activity android:name=".apiDemo.broadcast.TestBroadcastActivity" />
+        <activity android:name=".apiDemo.handler.TestHandlerSendActivity" />
+        <activity android:name=".apiDemo.handler.TestHandlerActivity" />
+        <activity android:name=".apiDemo.handler.TestHandlerPostActivity" />
+        <activity android:name=".apiDemo.asyncTask.TestAsyncTaskExecuteActivity" />
+        <activity android:name=".apiDemo.asyncTask.TestAsyncTaskExecuteOnExecutorActivity" />
+        <activity android:name=".apiDemo.asyncTask.TestAsyncTaskLoaderActivity" />
+        <activity android:name=".apiDemo.asyncTask.TestAsyncTaskActivity" />
+        <activity android:name=".apiDemo.handlerThread.TestAndroidHandleThreadActivity" />
+        <activity android:name=".apiDemo.viewTouch.TestViewGroupTouchActivity" />
+        <activity android:name=".apiDemo.customComponent.demo.TestTextViewActivity" />
+        <activity android:name=".apiDemo.matrix.TestMatrixDemo1Activity" />
+        <activity android:name=".apiDemo.matrix.TestMatrixActivity" />
+        <activity android:name=".apiDemo.listview.TestListViewActivity" />
+        <activity android:name=".apiDemo.RecycleView.TestRecycleViewShopActivity" />
+        <activity android:name=".apiDemo.architecture.TestArchitectureActivity" />
+        <activity android:name=".apiDemo.architecture.mvc.TestMVCArchitectureActivity" />
+        <activity android:name=".apiDemo.architecture.mvp.TestMVPArchitectureActivity" />
+        <activity android:name=".apiDemo.frame.aRouter.TestARouterActivity" />
+        <activity android:name=".apiDemo.frame.TestFrameActivity" />
+        <activity android:name=".apiDemo.frame.aRouter.TestARouterNormalActivity" />
+        <activity android:name=".apiDemo.frame.aRouter.TestARouterWithDataActivity" />
+        <activity android:name=".apiDemo.frame.aRouter.TestARouterResultActivity" />
+        <activity android:name=".apiDemo.frame.aRouter.TestARouterUriActivity" />
+        <activity android:name=".apiDemo.frame.aRouter.TestARouterAnimationActivity" />
+        <activity android:name=".apiDemo.frame.aRouter.TestARouterWebViewActivity" />
+        <activity android:name=".apiDemo.frame.aRouter.filter.SchemeFilterActivity" >
+
+            <intent-filter>
+
+                <data
+                    android:host="cpf.com"
+                    android:scheme="arouter"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+
+            </intent-filter>
+
+        </activity>
+        <activity android:name=".apiDemo.frame.aRouter.TestARouterWebViewResultActivity" />
+        <activity android:name=".apiDemo.frame.aRouter.TestARouterInterceptorActivity" />
+        <activity android:name=".apiDemo.frame.aRouter.TestARouterLostActivity" />
+        <activity android:name=".apiDemo.frame.okhttp3.TestOkHttp3Activity" />
+        <activity android:name=".apiDemo.frame.okhttp3.TestOkHttp3GetActivity" />
+        <activity android:name=".apiDemo.frame.okhttp3.TestOkHttp3PostActivity" />
+        <activity android:name=".apiDemo.remoteViews.TestNotificationRemoteViewsActivity" />
+        <activity android:name=".apiDemo.remoteViews.TestRemoteViewsActivity" />
+        <activity android:name=".TestKotlinCustomViewActivity" />
+        <activity android:name=".TestPluginViewActivity" />
+        <activity android:name=".ProxyActivity" />
+        <activity android:name=".eventBus.TestEventBusSendActivity" />
+        <activity android:name=".eventBus.TestEventBusActivity" />
+        <activity android:name=".threadLocal.TestThreadLocalActivity" />
+        <activity android:name=".glide.TestCustomGlideActivity" />
+        <activity android:name=".glide.TestGlideActivity" />
+        <activity android:name=".TestUpdateActivity" />
+        <activity android:name=".apiDemo.handler.TestCustomHandleSendActivity" />
+        <activity android:name=".scrollerConflict.TestScrollerConflictActivity" />
+
+
+        <service android:name=".apiDemo.service.createBind.MyBindService"/>
+        <service android:name=".apiDemo.service.messager.MyBindMessageService" />
+        <service android:name=".apiDemo.service.aidl.demo_1.MyAIDLService" />
+        <service android:name=".apiDemo.service.aidl.demo_2.TestBookService" />
+        <service android:name=".apiDemo.service.handlerService.TestIntentService" />
+        <service android:name=".apiDemo.service.foregroundService.TestForegroundService" />
+
+        <service android:name=".apiDemo.media.TestMediaPlayerService" />
+        <service android:name=".apiDemo.broadcast.test.TestBroadcastNormalService" />
+        <service android:name=".apiDemo.broadcast.test.TestBroadcastOrderService" />
+
+        <!--<provider-->
+            <!--android:authorities="com.test.demo.test.fileprovider"-->
+            <!--android:name="android.support.v4.content.FileProvider"-->
+            <!--android:grantUriPermissions="true"-->
+            <!--android:exported="false">-->
+            <!--<meta-data android:name="android.support.FILE_PROVIDER_PATHS"-->
+                <!--android:resource="@xml/filepaths"/>-->
+        <!--</provider>-->
+
+        <receiver android:name=".apiDemo.appWidget.ExampleAppWidgetProvider">
+
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+            <meta-data android:name="android.appwidget.provider"
+            android:resource="@xml/appwidget_provider"/>
+        </receiver>
+        <receiver android:name=".apiDemo.broadcast.TestBroadcastReceiverOrderActivity$MyBroadcastReceiverOrder" >
+
+            <intent-filter android:priority="1000">
+
+                <action android:name="com.test.demo.test.apiDemo.broadcast.test.TestBroadcastOrderService"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+
+            </intent-filter>
+
+        </receiver>
+        <receiver android:name=".apiDemo.broadcast.TestBroadcastReceiverOrderActivity$MyBroadcastReceiverOrder1" >
+
+            <intent-filter android:priority="100">
+
+                <action android:name="com.test.demo.test.apiDemo.broadcast.test.TestBroadcastOrderService"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+
+            </intent-filter>
+
+        </receiver>
+        <receiver android:name=".apiDemo.broadcast.TestBroadcastReceiverOrderActivity$MyBroadcastReceiverOrder2" >
+
+            <intent-filter android:priority="10">
+
+                <action android:name="com.test.demo.test.apiDemo.broadcast.test.TestBroadcastOrderService"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+
+            </intent-filter>
+
+        </receiver>
+
+
+        <provider
+            android:name=".apiDemo.search.suggestProvider.MySuggestionProvider"
+            android:authorities="com.test.demo.test.apiDemo.search.suggestProvider.MySuggestionProvider">
+        </provider>
+
+        <service android:name=".apiDemo.remoteViews.TestAppWidgetRemoteViewsService"/>
+
+        <receiver android:name=".apiDemo.remoteViews.TestAppWidgetRemoteViews">
+
+            <intent-filter>
+
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE"/>
+
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/custom_remote_views_appwidget"/>
+
+        </receiver>
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="com.test.demo.test.fileprovider"
+            android:grantUriPermissions="true"
+            android:exported="false">
+
+            <meta-data android:name="android.support.FILE_PROVIDER_PATHS"
+
+                android:resource="@xml/file_paths"/>
+
+        </provider>
+    </application>
+
+</manifest>

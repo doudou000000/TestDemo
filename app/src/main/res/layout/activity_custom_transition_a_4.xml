@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:circle="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/custom_transition_containt"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+
+    <View
+        android:id="@+id/delayed_transition"
+        android:layout_width="100dip"
+        android:layout_height="100dip"
+        android:background="@drawable/shape_oval"
+        android:layout_marginTop="10dip"/>
+
+    <View
+        android:id="@+id/delayed_transition_1"
+        android:layout_width="100dip"
+        android:layout_height="100dip"
+        android:background="@drawable/shape_oval"
+        android:layout_marginTop="10dip"/>
+
+</LinearLayout>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_test_fragment_page_adapter_fragment_container"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <Button
+        android:id="@+id/activity_test_fragment_page_adapter_fragment_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="调用MyFragment01中的方法"
+        android:visibility="gone"/>
+
+    <TextView
+        android:id="@+id/activity_test_fragment_page_adapter_fragment_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="TextView" />
+</RelativeLayout>
